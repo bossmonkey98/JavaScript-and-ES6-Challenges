@@ -9,6 +9,13 @@ Use ES6 whenever possible.
 "use strict";
 
 // Write code here
+const sum = (...args) =>{
+    var totalSum = 0;
+    for (var i of args){
+        totalSum=totalSum+i;
+    }
+    console.log(totalSum);
+}
 
 sum(1, 3);
 //4
